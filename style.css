@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #ff7197; 
+}
+
+/*================
+    CSS Cabeçalho
+=================*/
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.cabecalho-imagem{
+    height: 80px;
+    padding-left: 80px;  
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    padding-right: 80px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*================
+    CSS main - Conteúdo
+=================*/
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+/*================
+    CSS Conteúdo Principal
+=================*/
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2E2325;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+/*================
+    CSS Recursos
+=================*/
+.recursos {
+    background-color: #f9f9f9;
+    margin-top: 48px;
+}
+
+.recursos-escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recursos-escrito-titulo {
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ff7197;
+}
+
+.recursos-escrito-subtitulo {
+    padding-top: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: center;
+    color:#000000;
+}
+
+.recursos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.recursos-container-unico {
+    text-align: left;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.recursos-container-unico:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+          box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.recursos-container-unico img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+.recursos-container-unico h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.recursos-container-unico p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:#000000;
+    line-height: 22px;
+    max-width: 300px;
+}
+
+/*================
+    CSS Visão Geral
+=================*/
+.visaogeral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ff7197;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 30px;
+}
+
+.visaogeral h3 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.visaogeral p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color:#ffffff;
+    line-height: 22px;
+    max-width: 1000px;
+}
+
+/*================
+    CSS Equipe
+=================*/
+.equipe {
+    background-color: #f9f9f9;
+}
+
+.equipe-escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe-escrito-titulo1 {
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ff7197;
+}
+
+.equipe-escrito-titulo2 {
+    padding-top: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    max-width: 500px;
+    text-align: center;
+    color:#000000;
+}
+
+.equipe-escrito-subtitulo {
+    padding-top: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 500px;
+    text-align: center;
+    color:#000000;
+}
+
+.equipe-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.equipe-container-unico {
+    text-align: left;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.equipe-container-unico:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.equipe-container-unico h4 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.equipe-container-unico p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#888;
+    line-height: 22px;
+    max-width: 200px;
+}
+
+.equipe-container-unico img {
+    padding: 10px;
+    max-height: 230px;
+}
+
+.equipe-container-unico-botao {
+    width: 100%;
+    padding: 12px 30px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #081828;
+    border-radius: 5px;
+    font-family: 'Sarala', sans-serif;
+}
+.equipe-container-unico-botao:hover {
+    background-color: #ff6b81;
+    color: #fff;
+}
+.equipe-container-unico-botao .botao {
+    color: #fff;
+}
+
+/*================
+    CSS Patrocinadores
+=================*/
+.patrocinadores {
+    background-color: #ff7197;
+}
+
+.patrocinadores-escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.patrocinadores-escrito-titulo {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.patrocinadores-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 48px;
+}
+
+.patrocinadores-container img {
+    padding: 25px;
+    height: 250px;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.patrocinadores-container img:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+/*================
+    CSS Rodapé
+=================*/
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.rodape-imagem{
+    height: 64px;
+    margin-left: 80px;
+}
+
+.rodape-email {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 80px;
+    color: #fff
+    
+}
