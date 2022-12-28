@@ -25,7 +25,7 @@ body{
 }
 
 .cabecalho-imagem{
-    height: 90px;
+    height: 95px;
     padding-left: 80px;  
 }
 
@@ -39,7 +39,7 @@ body{
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*================
@@ -210,6 +210,7 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 24px;
+    text-align: center;
     color:#ffffff;
     line-height: 22px;
     max-width: 1000px;
@@ -325,10 +326,90 @@ body{
 }
 
 /*================
+    CSS Como Surgiu
+=================*/
+.comosurgiu {
+    background: #ff7197;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.comosurgiu-escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.comosurgiu-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+.comosurgiu-escrito-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color:#ffffff;
+    line-height: 22px;
+    max-width: 1000px;
+}
+
+/*================
+    CSS apoio
+=================*/
+.apoio {
+    background-color: #ffffff;
+}
+
+.apoio-escrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apoio-escrito-titulo {
+    padding-top: 48px;
+    padding-bottom: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ff7197
+}
+
+.apoio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 48px;
+}
+
+.apoio-container img {
+    padding: 15px;
+    height: 200px;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.apoio-container img:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+/*================
     CSS Patrocinadores
 =================*/
 .patrocinadores {
-    background-color: #ff7197;
+    background-color: #ffffff;
 }
 
 .patrocinadores-escrito {
@@ -339,12 +420,12 @@ body{
 }
 
 .patrocinadores-escrito-titulo {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 20px;
-    color:#ffffff;
+    color:#ff7197
 }
 
 .patrocinadores-container {
@@ -358,8 +439,8 @@ body{
 }
 
 .patrocinadores-container img {
-    padding: 25px;
-    height: 250px;
+    padding: 15px;
+    height: 200px;
     -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
@@ -384,7 +465,7 @@ body{
 }
 
 .rodape-imagem{
-    height: 64px;
+    height: 110px;
     margin-left: 80px;
 }
 
