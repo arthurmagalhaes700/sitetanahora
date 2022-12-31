@@ -1,2 +1,0 @@
-- Quando conectado a um SmartWatch, monitora quantos passos você dá por dia, sua frequência cardíaca e o oxigênio no seu sangue, criando relatórios que são apresentados a seu médico, relatando constantemente a situação de saúde do paciente.
-- Chatbot de atendimento com a opção de envios de mensagens de voz e que, quando necessário, pode transferir a conversa para um atendente humano, possibilitando o seguimento do acompanhamento.
